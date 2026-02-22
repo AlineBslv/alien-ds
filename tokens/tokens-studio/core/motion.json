@@ -1,0 +1,76 @@
+{
+  "duration": {
+    "instant": {
+      "value": "0ms",
+      "type": "duration",
+      "description": "Feedback imediato"
+    },
+    "fastest": {
+      "value": "50ms",
+      "type": "duration",
+      "description": "Micro interações"
+    },
+    "fast": {
+      "value": "100ms",
+      "type": "duration",
+      "description": "Hovers, focus"
+    },
+    "normal": {
+      "value": "150ms",
+      "type": "duration",
+      "description": "Transições padrão"
+    },
+    "medium": {
+      "value": "200ms",
+      "type": "duration",
+      "description": "Modais, expansões"
+    },
+    "slow": {
+      "value": "300ms",
+      "type": "duration",
+      "description": "Animações de entrada"
+    },
+    "slower": {
+      "value": "400ms",
+      "type": "duration",
+      "description": "Transições de página"
+    },
+    "slowest": {
+      "value": "500ms",
+      "type": "duration",
+      "description": "Animações complexas"
+    }
+  },
+  "easing": {
+    "linear": {
+      "value": "linear",
+      "type": "other",
+      "description": "Progresso constante"
+    },
+    "ease-in": {
+      "value": "cubic-bezier(0.4, 0, 1, 1)",
+      "type": "other",
+      "description": "Elementos saindo"
+    },
+    "ease-out": {
+      "value": "cubic-bezier(0, 0, 0.2, 1)",
+      "type": "other",
+      "description": "Elementos entrando (mais comum)"
+    },
+    "ease-in-out": {
+      "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "type": "other",
+      "description": "Transformações no lugar"
+    },
+    "spring": {
+      "value": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+      "type": "other",
+      "description": "Efeito de mola"
+    },
+    "bounce": {
+      "value": "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+      "type": "other",
+      "description": "Quique suave"
+    }
+  }
+}

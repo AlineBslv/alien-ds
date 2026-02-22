@@ -1,0 +1,229 @@
+{
+  "fontFamily": {
+    "heading": {
+      "value": "Space Grotesk",
+      "type": "fontFamilies",
+      "description": "Headlines - geométrica, moderna, técnica"
+    },
+    "body": {
+      "value": "Inter",
+      "type": "fontFamilies",
+      "description": "Body - otimizada para telas"
+    },
+    "mono": {
+      "value": "JetBrains Mono",
+      "type": "fontFamilies",
+      "description": "Código"
+    }
+  },
+  "fontSize": {
+    "xs": {
+      "value": "12",
+      "type": "fontSizes",
+      "description": "Uso restrito - badges/labels auxiliares"
+    },
+    "sm": {
+      "value": "14",
+      "type": "fontSizes",
+      "description": "Caption - mínimo acessível"
+    },
+    "base": {
+      "value": "16",
+      "type": "fontSizes",
+      "description": "Body padrão"
+    },
+    "lg": {
+      "value": "18",
+      "type": "fontSizes",
+      "description": "Body large"
+    },
+    "xl": {
+      "value": "24",
+      "type": "fontSizes",
+      "description": "H3 - subtítulos"
+    },
+    "2xl": {
+      "value": "32",
+      "type": "fontSizes",
+      "description": "H2 - títulos de seção"
+    },
+    "3xl": {
+      "value": "40",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "48",
+      "type": "fontSizes",
+      "description": "H1 - título principal"
+    },
+    "5xl": {
+      "value": "56",
+      "type": "fontSizes"
+    },
+    "6xl": {
+      "value": "64",
+      "type": "fontSizes",
+      "description": "Display - hero sections"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "500",
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "700",
+      "type": "fontWeights"
+    }
+  },
+  "lineHeight": {
+    "none": {
+      "value": "1",
+      "type": "lineHeights"
+    },
+    "tight": {
+      "value": "1.2",
+      "type": "lineHeights",
+      "description": "Headlines grandes"
+    },
+    "snug": {
+      "value": "1.25",
+      "type": "lineHeights",
+      "description": "Headlines médios"
+    },
+    "normal": {
+      "value": "1.3",
+      "type": "lineHeights",
+      "description": "Headlines pequenos"
+    },
+    "relaxed": {
+      "value": "1.5",
+      "type": "lineHeights",
+      "description": "Captions, labels"
+    },
+    "loose": {
+      "value": "1.6",
+      "type": "lineHeights",
+      "description": "Body text - máxima legibilidade"
+    }
+  },
+  "letterSpacing": {
+    "tighter": {
+      "value": "-5%",
+      "type": "letterSpacing",
+      "description": "Headlines grandes"
+    },
+    "tight": {
+      "value": "-2.5%",
+      "type": "letterSpacing",
+      "description": "Headlines"
+    },
+    "normal": {
+      "value": "0%",
+      "type": "letterSpacing",
+      "description": "Body"
+    },
+    "wide": {
+      "value": "2.5%",
+      "type": "letterSpacing",
+      "description": "Captions"
+    },
+    "wider": {
+      "value": "5%",
+      "type": "letterSpacing",
+      "description": "Labels, badges"
+    },
+    "widest": {
+      "value": "10%",
+      "type": "letterSpacing",
+      "description": "All caps text"
+    }
+  },
+  "textStyles": {
+    "display": {
+      "value": {
+        "fontFamily": "{fontFamily.heading}",
+        "fontSize": "{fontSize.6xl}",
+        "fontWeight": "{fontWeight.bold}",
+        "lineHeight": "{lineHeight.tight}",
+        "letterSpacing": "{letterSpacing.tighter}"
+      },
+      "type": "typography",
+      "description": "Hero sections"
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{fontFamily.heading}",
+        "fontSize": "{fontSize.4xl}",
+        "fontWeight": "{fontWeight.bold}",
+        "lineHeight": "{lineHeight.tight}",
+        "letterSpacing": "{letterSpacing.tight}"
+      },
+      "type": "typography",
+      "description": "Título principal da página"
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{fontFamily.heading}",
+        "fontSize": "{fontSize.2xl}",
+        "fontWeight": "{fontWeight.semibold}",
+        "lineHeight": "{lineHeight.snug}",
+        "letterSpacing": "{letterSpacing.tight}"
+      },
+      "type": "typography",
+      "description": "Títulos de seção"
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{fontFamily.heading}",
+        "fontSize": "{fontSize.xl}",
+        "fontWeight": "{fontWeight.medium}",
+        "lineHeight": "{lineHeight.normal}",
+        "letterSpacing": "{letterSpacing.normal}"
+      },
+      "type": "typography",
+      "description": "Subtítulos"
+    },
+    "body-lg": {
+      "value": {
+        "fontFamily": "{fontFamily.body}",
+        "fontSize": "{fontSize.lg}",
+        "fontWeight": "{fontWeight.regular}",
+        "lineHeight": "{lineHeight.loose}",
+        "letterSpacing": "{letterSpacing.normal}"
+      },
+      "type": "typography",
+      "description": "Textos de destaque"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{fontFamily.body}",
+        "fontSize": "{fontSize.base}",
+        "fontWeight": "{fontWeight.regular}",
+        "lineHeight": "{lineHeight.loose}",
+        "letterSpacing": "{letterSpacing.normal}"
+      },
+      "type": "typography",
+      "description": "Texto padrão"
+    },
+    "caption": {
+      "value": {
+        "fontFamily": "{fontFamily.body}",
+        "fontSize": "{fontSize.sm}",
+        "fontWeight": "{fontWeight.medium}",
+        "lineHeight": "{lineHeight.relaxed}",
+        "letterSpacing": "{letterSpacing.wide}"
+      },
+      "type": "typography",
+      "description": "Textos auxiliares"
+    }
+  }
+}

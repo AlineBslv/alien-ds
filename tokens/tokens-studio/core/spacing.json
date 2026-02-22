@@ -1,0 +1,151 @@
+{
+  "spacing": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "px": {
+      "value": "1",
+      "type": "spacing"
+    },
+    "0.5": {
+      "value": "2",
+      "type": "spacing"
+    },
+    "1": {
+      "value": "4",
+      "type": "spacing",
+      "description": "Ícones, badges"
+    },
+    "2": {
+      "value": "8",
+      "type": "spacing",
+      "description": "Gaps pequenos, padding interno"
+    },
+    "3": {
+      "value": "12",
+      "type": "spacing",
+      "description": "Intermediário"
+    },
+    "4": {
+      "value": "16",
+      "type": "spacing",
+      "description": "Padding padrão, gaps"
+    },
+    "5": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "6": {
+      "value": "24",
+      "type": "spacing",
+      "description": "Seções pequenas"
+    },
+    "7": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "32",
+      "type": "spacing",
+      "description": "Seções médias"
+    },
+    "10": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "48",
+      "type": "spacing",
+      "description": "Seções grandes"
+    },
+    "14": {
+      "value": "56",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "64",
+      "type": "spacing",
+      "description": "Hero sections"
+    },
+    "20": {
+      "value": "80",
+      "type": "spacing"
+    },
+    "24": {
+      "value": "96",
+      "type": "spacing",
+      "description": "Mega sections"
+    },
+    "32": {
+      "value": "128",
+      "type": "spacing"
+    }
+  },
+  "component": {
+    "button": {
+      "paddingX": {
+        "sm": {
+          "value": "{spacing.3}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{spacing.4}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.6}",
+          "type": "spacing"
+        }
+      },
+      "paddingY": {
+        "sm": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{spacing.3}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.4}",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "value": "{spacing.2}",
+        "type": "spacing"
+      }
+    },
+    "input": {
+      "paddingX": {
+        "value": "{spacing.4}",
+        "type": "spacing"
+      },
+      "paddingY": {
+        "value": "{spacing.3}",
+        "type": "spacing"
+      }
+    },
+    "card": {
+      "padding": {
+        "sm": {
+          "value": "{spacing.4}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{spacing.6}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.8}",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "value": "{spacing.4}",
+        "type": "spacing"
+      }
+    }
+  }
+}

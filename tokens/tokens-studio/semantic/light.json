@@ -1,0 +1,118 @@
+{
+  "background": {
+    "primary": {
+      "value": "{neutral.50}",
+      "type": "color",
+      "description": "Fundo principal light"
+    },
+    "secondary": {
+      "value": "{neutral.100}",
+      "type": "color",
+      "description": "Fundo secundário light"
+    },
+    "tertiary": {
+      "value": "{neutral.200}",
+      "type": "color",
+      "description": "Cards light"
+    },
+    "elevated": {
+      "value": "{base.white}",
+      "type": "color",
+      "description": "Elementos elevados light"
+    }
+  },
+  "foreground": {
+    "primary": {
+      "value": "{primary.900}",
+      "type": "color",
+      "description": "Texto principal light"
+    },
+    "secondary": {
+      "value": "{neutral.700}",
+      "type": "color",
+      "description": "Texto secundário light"
+    },
+    "muted": {
+      "value": "{neutral.600}",
+      "type": "color",
+      "description": "Texto sutil light"
+    },
+    "accent": {
+      "value": "{accent.700}",
+      "type": "color",
+      "description": "Texto destaque light (mais escuro para contraste)"
+    }
+  },
+  "border": {
+    "default": {
+      "value": "{neutral.300}",
+      "type": "color",
+      "description": "Bordas padrão light"
+    },
+    "subtle": {
+      "value": "rgba(110, 122, 136, 0.15)",
+      "type": "color",
+      "description": "Bordas sutis light"
+    },
+    "accent": {
+      "value": "{accent.600}",
+      "type": "color",
+      "description": "Bordas de destaque light"
+    },
+    "focus": {
+      "value": "{accent.600}",
+      "type": "color",
+      "description": "Focus ring light"
+    }
+  },
+  "interactive": {
+    "primary": {
+      "default": {
+        "value": "{accent.600}",
+        "type": "color",
+        "description": "CTA background light (mais escuro)"
+      },
+      "hover": {
+        "value": "{accent.700}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{accent.800}",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{primary.900}",
+        "type": "color",
+        "description": "Texto em CTA light"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{aurora.600}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{aurora.700}",
+        "type": "color"
+      }
+    }
+  },
+  "icon": {
+    "default": {
+      "value": "{neutral.600}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{accent.600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{accent.700}",
+      "type": "color"
+    },
+    "critical": {
+      "value": "{aurora.600}",
+      "type": "color"
+    }
+  }
+}

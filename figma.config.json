@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/figma/code-connect/main/schema.json",
+  "codeConnect": {
+    "parser": "react",
+    "paths": {
+      "components": "./components"
+    },
+    "include": [
+      "components/**/*.figma.tsx"
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "borderRadius": {
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "sm": {
+      "value": "4",
+      "type": "borderRadius",
+      "description": "Badges, chips"
+    },
+    "md": {
+      "value": "8",
+      "type": "borderRadius",
+      "description": "Inputs, botões pequenos"
+    },
+    "lg": {
+      "value": "12",
+      "type": "borderRadius",
+      "description": "Cards, botões grandes (padrão)"
+    },
+    "xl": {
+      "value": "16",
+      "type": "borderRadius",
+      "description": "Modais, containers"
+    },
+    "2xl": {
+      "value": "24",
+      "type": "borderRadius",
+      "description": "Cards especiais"
+    },
+    "3xl": {
+      "value": "32",
+      "type": "borderRadius",
+      "description": "Elementos hero"
+    },
+    "full": {
+      "value": "9999",
+      "type": "borderRadius",
+      "description": "Pills, avatares"
+    }
+  },
+  "boxShadow": {
+    "none": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "transparent",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "sm": {
+      "value": {
+        "x": "0",
+        "y": "1",
+        "blur": "2",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.05)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "Hover states, separação leve"
+    },
+    "md": {
+      "value": [
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "6",
+          "spread": "-1",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "-2",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Cards, containers"
+    },
+    "lg": {
+      "value": [
+        {
+          "x": "0",
+          "y": "10",
+          "blur": "15",
+          "spread": "-3",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "6",
+          "spread": "-4",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Dropdowns, modais pequenos"
+    },
+    "xl": {
+      "value": [
+        {
+          "x": "0",
+          "y": "20",
+          "blur": "25",
+          "spread": "-5",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8",
+          "blur": "10",
+          "spread": "-6",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Modais grandes, overlays"
+    },
+    "glow-accent": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "20",
+        "spread": "0",
+        "color": "rgba(58, 242, 215, 0.3)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "Glow accent para CTAs"
+    },
+    "glow-aurora": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "20",
+        "spread": "0",
+        "color": "rgba(107, 76, 246, 0.3)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "Glow aurora para destaques"
+    }
+  },
+  "opacity": {
+    "0": {
+      "value": "0%",
+      "type": "opacity"
+    },
+    "5": {
+      "value": "5%",
+      "type": "opacity"
+    },
+    "10": {
+      "value": "10%",
+      "type": "opacity"
+    },
+    "25": {
+      "value": "25%",
+      "type": "opacity"
+    },
+    "50": {
+      "value": "50%",
+      "type": "opacity"
+    },
+    "75": {
+      "value": "75%",
+      "type": "opacity"
+    },
+    "100": {
+      "value": "100%",
+      "type": "opacity"
+    }
+  }
+}

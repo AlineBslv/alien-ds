@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dark",
+    "name": "Dark",
+    "selectedTokenSets": {
+      "core/colors": "enabled",
+      "core/typography": "enabled",
+      "core/spacing": "enabled",
+      "core/elevation": "enabled",
+      "core/motion": "enabled",
+      "semantic/dark": "enabled"
+    }
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "selectedTokenSets": {
+      "core/colors": "enabled",
+      "core/typography": "enabled",
+      "core/spacing": "enabled",
+      "core/elevation": "enabled",
+      "core/motion": "enabled",
+      "semantic/light": "enabled"
+    }
+  }
+]

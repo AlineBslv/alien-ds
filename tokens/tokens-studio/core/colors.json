@@ -1,0 +1,208 @@
+{
+  "primary": {
+    "900": {
+      "value": "#0A1F44",
+      "type": "color",
+      "description": "Azul Eclipse - backgrounds principais, hero"
+    },
+    "800": {
+      "value": "#0C2550",
+      "type": "color"
+    },
+    "700": {
+      "value": "#0F2C5C",
+      "type": "color",
+      "description": "Azul Profundo - seções secundárias"
+    },
+    "600": {
+      "value": "#103365",
+      "type": "color"
+    },
+    "500": {
+      "value": "#123A6F",
+      "type": "color",
+      "description": "Azul Estruturado - cards, blocos"
+    },
+    "400": {
+      "value": "#1A4A8A",
+      "type": "color"
+    },
+    "300": {
+      "value": "#2563A8",
+      "type": "color"
+    },
+    "200": {
+      "value": "#4A8BC7",
+      "type": "color"
+    },
+    "100": {
+      "value": "#7FB3E0",
+      "type": "color"
+    },
+    "50": {
+      "value": "#E8F2FC",
+      "type": "color"
+    }
+  },
+  "accent": {
+    "900": {
+      "value": "#0A5C52",
+      "type": "color"
+    },
+    "800": {
+      "value": "#0F7A6E",
+      "type": "color"
+    },
+    "700": {
+      "value": "#19C7B0",
+      "type": "color",
+      "description": "Ciano Profundo - hover/ativo"
+    },
+    "600": {
+      "value": "#26DCC5",
+      "type": "color"
+    },
+    "500": {
+      "value": "#3AF2D7",
+      "type": "color",
+      "description": "Ciano Futuro - CTA principal"
+    },
+    "400": {
+      "value": "#5FF5E0",
+      "type": "color"
+    },
+    "300": {
+      "value": "#85F8E8",
+      "type": "color"
+    },
+    "200": {
+      "value": "#ADF9EF",
+      "type": "color"
+    },
+    "100": {
+      "value": "#D6FCF6",
+      "type": "color"
+    },
+    "50": {
+      "value": "#EDFDFB",
+      "type": "color"
+    }
+  },
+  "aurora": {
+    "900": {
+      "value": "#2E1B6B",
+      "type": "color"
+    },
+    "800": {
+      "value": "#3D2587",
+      "type": "color"
+    },
+    "700": {
+      "value": "#4C30A3",
+      "type": "color"
+    },
+    "600": {
+      "value": "#5C3DC0",
+      "type": "color"
+    },
+    "500": {
+      "value": "#6B4CF6",
+      "type": "color",
+      "description": "Roxo Aurora - destaque secundário"
+    },
+    "400": {
+      "value": "#8570F8",
+      "type": "color"
+    },
+    "300": {
+      "value": "#A094FA",
+      "type": "color"
+    },
+    "200": {
+      "value": "#BBB8FC",
+      "type": "color"
+    },
+    "100": {
+      "value": "#D7D5FD",
+      "type": "color"
+    },
+    "50": {
+      "value": "#F3F2FE",
+      "type": "color"
+    }
+  },
+  "neutral": {
+    "900": {
+      "value": "#1A1A1A",
+      "type": "color",
+      "description": "Obsidian - fundo escuro alternativo"
+    },
+    "800": {
+      "value": "#2D2D2D",
+      "type": "color"
+    },
+    "700": {
+      "value": "#6E7A88",
+      "type": "color",
+      "description": "Cinza Estrutural - ícones/bordas"
+    },
+    "600": {
+      "value": "#8E99A5",
+      "type": "color",
+      "description": "Cinza Técnico - texto secundário"
+    },
+    "500": {
+      "value": "#A0A9B4",
+      "type": "color"
+    },
+    "400": {
+      "value": "#B3BBC4",
+      "type": "color"
+    },
+    "300": {
+      "value": "#C7CDD4",
+      "type": "color"
+    },
+    "200": {
+      "value": "#DBE0E5",
+      "type": "color"
+    },
+    "100": {
+      "value": "#F5F7FA",
+      "type": "color",
+      "description": "Branco Luminoso - texto em dark"
+    },
+    "50": {
+      "value": "#FAFBFC",
+      "type": "color"
+    }
+  },
+  "status": {
+    "success": {
+      "value": "#22C55E",
+      "type": "color"
+    },
+    "warning": {
+      "value": "#F59E0B",
+      "type": "color"
+    },
+    "error": {
+      "value": "#EF4444",
+      "type": "color"
+    }
+  },
+  "base": {
+    "white": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "transparent": {
+      "value": "transparent",
+      "type": "color"
+    }
+  }
+}

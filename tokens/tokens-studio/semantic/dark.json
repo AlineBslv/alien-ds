@@ -1,0 +1,118 @@
+{
+  "background": {
+    "primary": {
+      "value": "{primary.900}",
+      "type": "color",
+      "description": "Fundo principal (hero, main)"
+    },
+    "secondary": {
+      "value": "{primary.700}",
+      "type": "color",
+      "description": "Fundo secundário (seções)"
+    },
+    "tertiary": {
+      "value": "{primary.500}",
+      "type": "color",
+      "description": "Cards, blocos"
+    },
+    "elevated": {
+      "value": "{neutral.900}",
+      "type": "color",
+      "description": "Elementos elevados"
+    }
+  },
+  "foreground": {
+    "primary": {
+      "value": "{neutral.100}",
+      "type": "color",
+      "description": "Texto principal"
+    },
+    "secondary": {
+      "value": "{neutral.600}",
+      "type": "color",
+      "description": "Texto secundário"
+    },
+    "muted": {
+      "value": "{neutral.700}",
+      "type": "color",
+      "description": "Texto sutil"
+    },
+    "accent": {
+      "value": "{accent.500}",
+      "type": "color",
+      "description": "Texto destaque"
+    }
+  },
+  "border": {
+    "default": {
+      "value": "{neutral.700}",
+      "type": "color",
+      "description": "Bordas padrão"
+    },
+    "subtle": {
+      "value": "rgba(110, 122, 136, 0.25)",
+      "type": "color",
+      "description": "Bordas sutis"
+    },
+    "accent": {
+      "value": "{accent.500}",
+      "type": "color",
+      "description": "Bordas de destaque"
+    },
+    "focus": {
+      "value": "{accent.500}",
+      "type": "color",
+      "description": "Focus ring"
+    }
+  },
+  "interactive": {
+    "primary": {
+      "default": {
+        "value": "{accent.500}",
+        "type": "color",
+        "description": "CTA background"
+      },
+      "hover": {
+        "value": "{accent.700}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{accent.800}",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "{primary.900}",
+        "type": "color",
+        "description": "Texto em CTA (contraste forte)"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{aurora.500}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{aurora.600}",
+        "type": "color"
+      }
+    }
+  },
+  "icon": {
+    "default": {
+      "value": "{neutral.700}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{accent.500}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{accent.500}",
+      "type": "color"
+    },
+    "critical": {
+      "value": "{aurora.500}",
+      "type": "color"
+    }
+  }
+}

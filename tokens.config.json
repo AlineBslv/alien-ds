@@ -1,0 +1,17 @@
+{
+  "$schema": "https://tokens.studio/schema.json",
+  "version": "1.0",
+  "name": "Alien Design System",
+  "description": "Design tokens para o Alien Design System",
+  "storage": {
+    "provider": "github",
+    "repositoryUrl": "",
+    "branch": "main",
+    "filePath": "tokens/tokens-studio"
+  },
+  "settings": {
+    "prefixStylesWithThemeName": true,
+    "ignoreFirstPartForStyles": true,
+    "inspectDeep": true
+  }
+}
